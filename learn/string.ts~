@@ -1,0 +1,2 @@
+var str=new String(""Marvellous);
+var ptr=new String("Infosystem");

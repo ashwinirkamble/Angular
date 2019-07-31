@@ -1,0 +1,12 @@
+var str:string="Pune Kothrud Marvellous Infosystems"
+
+function ChkString( str:string)
+{
+  
+  //var str:string = "Apples are round, and apples are juicy."; 
+  var splitted = str.split(" ",str.length); 
+  console.log(splitted)
+  //var arr1=str.split(" ",str.length);
+}
+
+ChkString(str);

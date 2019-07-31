@@ -1,0 +1,36 @@
+
+
+//class circle
+
+class circle
+{
+ //characteristics
+
+ radius:number;
+ pi:number=3.14;
+
+//constructor
+
+ constructor(value:number)
+	{
+	this.radius=value;
+	//this.pi=3.14;
+	}
+
+
+//Behaviour
+
+Area():number
+{
+ 
+ var result=this.pi*this.radius*this.radius;
+ return result;
+}
+}
+
+var obj1=new circle(10);
+console.log("Area of circle = "+obj1.Area());
+
+
+var obj2=new circle(20);
+console.log("Area of circle = "+obj2.Area());

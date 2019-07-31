@@ -1,0 +1,49 @@
+//class circle
+
+class circle
+{
+ //characteristics
+
+ radius:number;
+ pi:number=3.14;
+
+//constructor
+
+ constructor(value:number)
+	{
+	this.radius=value;
+	//this.pi=3.14;
+	}
+
+
+//Behaviour
+
+Area():number
+{
+ 
+ var result=this.pi*this.radius*this.radius;
+ return result;
+}
+}
+
+
+class CircleX extends circle
+{
+
+Circumference()
+{
+  var result=2*this.pi*this.radius;
+  console.log("Circumstance= "+result);
+}
+}
+
+
+var obj1=new CircleX(1);
+console.log("Area of circle = "+obj1.Area());
+
+console.log("Area of circle = "+obj1.Circumference());
+
+
+//var obj2=new CircleX(2);
+//console.log("Area of circle = "+obj2.Area());
+//console.log("Area of circle = "+obj2.Circumference());

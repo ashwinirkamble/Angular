@@ -1,0 +1,4 @@
+//create array
+var arr1:number[];
+
+var arr[]=[1,2,3];

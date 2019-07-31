@@ -1,0 +1,9 @@
+function ChkPrime(no:number)
+{
+   for(var i=2;i<no/2;i++)
+   {
+   if(no%==0)
+   return true;
+   }
+ return 
+}

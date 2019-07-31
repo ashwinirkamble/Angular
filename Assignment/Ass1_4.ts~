@@ -1,0 +1,15 @@
+function ChkPrime(no:number)
+{
+   for(var i=2;i<no/2;i++)
+   {
+   if(no%i==0)
+   return false;
+   }
+ return true;
+}
+
+var res=ChkPrime(5);
+console.log(""+res);
+
+var res=ChkPrime(10);
+console.log(""+res)

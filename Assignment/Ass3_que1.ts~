@@ -1,0 +1,29 @@
+class Arithmetic
+{
+  //characteristics
+
+  number1:number;
+  number2:number;
+  result:number;
+
+//constructor
+
+  constructor(num1:number,num2:number)
+ {
+ this.number1=num1;
+ this.number2=num2;
+ }
+
+//behaviours
+
+   Addition():number
+   {
+   result=num1+num2;
+   return result;
+   }
+
+}
+
+//creating object of class
+
+var obj=new Arithmetic(10,20);
